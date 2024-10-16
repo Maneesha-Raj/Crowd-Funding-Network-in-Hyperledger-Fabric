@@ -94,7 +94,7 @@ sleep 1
 
 # Org4 (BankOrg) Peer
 export CORE_PEER_LOCALMSPID=BankMSP
-export CORE_PEER_ADDRESS=localhost:13051
+export CORE_PEER_ADDRESS=localhost:12051
 export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/bank.crowdfund.com/peers/peer0.bank.crowdfund.com/tls/ca.crt
 export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/bank.crowdfund.com/users/Admin@bank.crowdfund.com/msp
 
