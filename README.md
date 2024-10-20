@@ -25,6 +25,12 @@ The **CrowdFundingNetwork** consists of the following entities:
 
 All organizations use **Fabric CA** for certificate generation and user management. Each organization has one peer node, and the network uses a solo ordering service.
 
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   Hyperledger Fabric
+
 ## Prerequisites
 
 Make sure the following tools are installed on your machine:
