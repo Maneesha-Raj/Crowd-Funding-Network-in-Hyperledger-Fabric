@@ -11,12 +11,12 @@ docker rm -f $(docker ps -a | awk '($2 ~ /dev-peer.*/) {print $1}')
 docker volume rm $(docker volume ls -q)
 
 rm -rf channel-artifacts/
-# rm basic.tar.gz
+rm crfund.tar.gz
 rm -rf organizations/
 
 docker ps -a
 
-#docker rm $(docker container ls -q) --force
+docker rm $(docker container ls -q) --force
 
 yes | docker container prune
 
